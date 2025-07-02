@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+     
+  <nav class="navbar navbar-dark bg-transparent py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-3" href="#">Weather</a>
+      <span class="text-white-50">Check the weather by city</span>
+    </div>
+  </nav>
+
+  
+  <div class="container py-4 text-white">
+    <div class="row mb-4">
+      <div class="col-md-9">
+        <input type="text" id="cityInput" class="form-control" placeholder="Enter city name..." />
+      </div>
+      <div class="col-md-3">
+        <button id="searchBtn" class="btn btn-primary w-100">Search</button>
+      </div>
+    </div>
+
+    <div id="mainCard" class="bg-dark bg-opacity-25 rounded-4 p-4 mb-4"></div>
+
+    <div id="forecastRow" class="row g-4"></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
